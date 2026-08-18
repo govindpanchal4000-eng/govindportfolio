@@ -5,8 +5,8 @@ import About from "./components/About";
 import Skill from "./components/Skill";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
-
 import Footer from "./components/Footer";
+
 export default function App() {
   return (
     <>
@@ -29,14 +29,12 @@ export default function App() {
           <Contact />
         </section>
 
-         <section id="Project">
+        <section id="project">
           <Project />
         </section>
-
-        <section id="">
-          <Footer />
-        </section>
       </main>
+
+      <Footer />
     </>
   );
 }
