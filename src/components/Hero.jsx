@@ -42,7 +42,7 @@ export default function Hero() {
             </p>
 
             {/* Heading */}
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+            <h1 className="text-3xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
               Hi, I'm{" "}
               <span className="text-blue-600 dark:text-blue-400">
                 Govind Kumar
