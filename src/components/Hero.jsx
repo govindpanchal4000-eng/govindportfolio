@@ -98,7 +98,8 @@ export default function Hero() {
                 className="rounded-lg border border-slate-200 p-3 text-slate-600 transition hover:border-blue-600 hover:text-blue-600 dark:border-slate-800 dark:text-slate-400 dark:hover:border-blue-400 dark:hover:text-blue-400"
               
                 whileHover={{ y: -3 }}
-                href="#"
+                href="Govind-Kumar-Resume.pdf"
+               download="Govind-Kumar-Resume.pdf"
                 className="flex items-center gap-2 rounded-lg border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-600 transition hover:border-blue-600 hover:text-blue-600 dark:border-slate-800 dark:text-slate-400 dark:hover:border-blue-400 dark:hover:text-blue-400"
               >
                 <FiDownload />
