@@ -51,7 +51,7 @@ export default function Hero() {
 
             {/* Description */}
             <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-400 sm:text-lg">
-              I build modern, responsive || and user-friendly web applications
+              I build modern, responsive and user-friendly web applications
               using React.js, JavaScript, Tailwind CSS, Node.js and MongoDB.
             </p>
 
