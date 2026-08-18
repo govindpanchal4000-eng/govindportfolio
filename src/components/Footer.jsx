@@ -36,32 +36,7 @@ export default function Footer() {
 
           {/* Social Icons */}
           <div className="flex items-center gap-3">
-
-            <a
-              href="https://github.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg border border-slate-700 p-3 transition hover:border-blue-500 hover:bg-blue-600 hover:text-white"
-            >
-              <FiGithub size={20} />
-            </a>
-
-            <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg border border-slate-700 p-3 transition hover:border-blue-500 hover:bg-blue-600 hover:text-white"
-            >
-              <FiLinkedin size={20} />
-            </a>
-
-            <a
-              href="mailto:yourmail@gmail.com"
-              className="rounded-lg border border-slate-700 p-3 transition hover:border-blue-500 hover:bg-blue-600 hover:text-white"
-            >
-              <FiMail size={20} />
-            </a>
-
+           
           </div>
 
           {/* Back To Top */}
