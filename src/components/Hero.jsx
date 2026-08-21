@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import {
   FiArrowRight,
   FiDownload,
+  FiGithub,
+  FiLinkedin,
 } from "react-icons/fi";
 
 export default function Hero() {
@@ -24,7 +26,7 @@ export default function Hero() {
             <div className="rounded-full border-4 border-blue-600 p-1">
               <img
                 src="https://res.cloudinary.com/yeqfmgur/image/upload/v1786469638/WhatsApp_Image_2026-08-11_at_10.23.43_PM_1_dkzwch.jpg"
-        
+                alt="Govind Kumar"
                 className="h-32 w-32 rounded-full object-cover object-top sm:h-36 sm:w-36"
               />
             </div>
@@ -58,6 +60,7 @@ export default function Hero() {
             {/* Buttons */}
             <div className="mt-8 flex flex-wrap justify-center gap-3">
 
+              {/* Projects */}
               <motion.a
                 href="#projects"
                 whileHover={{ y: -2 }}
@@ -68,6 +71,7 @@ export default function Hero() {
                 <FiArrowRight />
               </motion.a>
 
+              {/* Contact */}
               <motion.a
                 href="#contact"
                 whileHover={{ y: -2 }}
@@ -82,27 +86,41 @@ export default function Hero() {
             {/* Social Links */}
             <div className="mt-8 flex items-center justify-center gap-3">
 
+              {/* GitHub */}
               <motion.a
                 whileHover={{ y: -3 }}
-                href="#"
+                whileTap={{ scale: 0.97 }}
+                href="https://github.com/govindpanchal400"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="GitHub"
                 className="rounded-lg border border-slate-200 p-3 text-slate-600 transition hover:border-blue-600 hover:text-blue-600 dark:border-slate-800 dark:text-slate-400 dark:hover:border-blue-400 dark:hover:text-blue-400"
-              
-            
-          
+              >
+                <FiGithub size={20} />
+              </motion.a>
 
-              
+              {/* LinkedIn */}
+              <motion.a
                 whileHover={{ y: -3 }}
-                href="#"
+                whileTap={{ scale: 0.97 }}
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="LinkedIn"
                 className="rounded-lg border border-slate-200 p-3 text-slate-600 transition hover:border-blue-600 hover:text-blue-600 dark:border-slate-800 dark:text-slate-400 dark:hover:border-blue-400 dark:hover:text-blue-400"
-              
+              >
+                <FiLinkedin size={20} />
+              </motion.a>
+
+              {/* Resume */}
+              <motion.a
                 whileHover={{ y: -3 }}
-                href="Govind-Kumar-Resume.pdf"
-               download="Govind-Kumar-Resume.pdf"
+                whileTap={{ scale: 0.97 }}
+                href="/Govind-Kumar-Resume.pdf"
+                download="Govind-Kumar-Resume.pdf"
                 className="flex items-center gap-2 rounded-lg border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-600 transition hover:border-blue-600 hover:text-blue-600 dark:border-slate-800 dark:text-slate-400 dark:hover:border-blue-400 dark:hover:text-blue-400"
               >
-                <FiDownload />
+                <FiDownload size={18} />
                 Resume
               </motion.a>
 
