@@ -17,13 +17,13 @@ export default function Projects() {
       live: "#",
     },
     {
-      title: "Keychain Store",
-      description:
-        "A responsive e-commerce website for browsing and exploring different keychain products.",
-      tech: ["React", "JavaScript", "Tailwind"],
-      github: "#",
-      live: "#",
-    },
+  title: "Keychain Store",
+  description:
+    "A responsive e-commerce website for browsing and exploring different keychain products.",
+  tech: ["React", "JavaScript", "Tailwind"],
+  github: "#",
+  live: "https://key-front.vercel.app/",
+},
     {
       title: "Random User App",
       description:
@@ -58,7 +58,7 @@ export default function Projects() {
           </p>
 
           <h2 className="mt-2 text-3xl font-bold sm:text-4xl">
-            Featured Projects
+            view Projects
           </h2>
 
           <p className="mx-auto mt-4 max-w-xl text-slate-600 dark:text-slate-400">
@@ -119,8 +119,9 @@ export default function Projects() {
                     href={project.github}
                     className="flex items-center gap-2 rounded-lg border border-slate-200 px-4 py-2 text-sm font-medium text-slate-700 transition hover:border-blue-500 hover:text-blue-600 dark:border-slate-700 dark:text-slate-300 dark:hover:border-blue-400 dark:hover:text-blue-400"
                   >
-                    <FiGithub />
+                    <FiGithub  />
                     GitHub
+                    
                   </a>
 
                   <a
