@@ -17,14 +17,7 @@ export default function Projects() {
   github: "#",
   live: "https://key-front.vercel.app/",
 },
-    {
-      title: "Random User App",
-      description:
-        "A React application that fetches and displays user data from a public API.",
-      tech: ["React", "Axios", "API"],
-      github: "#",
-      live: "#",
-    },
+    
   ];
 
   return (
