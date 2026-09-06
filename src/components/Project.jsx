@@ -8,14 +8,7 @@ import {
 
 export default function Projects() {
   const projects = [
-    {
-      title: "Portfolio Website",
-      description:
-        "A modern and responsive developer portfolio built with React and Tailwind CSS.",
-      tech: ["React", "Tailwind", "Framer Motion"],
-      github: "#",
-      live: "#",
-    },
+    
     {
   title: "Keychain Store",
   description:
