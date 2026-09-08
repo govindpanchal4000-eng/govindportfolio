@@ -14,7 +14,7 @@ export default function Projects() {
   description:
     "A responsive e-commerce website for browsing and exploring different keychain products.",
   tech: ["React", "JavaScript", "Tailwind"],
-  github: "#",
+  github: "https://github.com/",
   live: "https://key-front.vercel.app/",
 },
     
